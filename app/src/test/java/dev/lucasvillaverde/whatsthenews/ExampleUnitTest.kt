@@ -1,4 +1,4 @@
-package com.example.whatsthenews
+package dev.lucasvillaverde.whatsthenews
 
 import org.junit.Test
 
