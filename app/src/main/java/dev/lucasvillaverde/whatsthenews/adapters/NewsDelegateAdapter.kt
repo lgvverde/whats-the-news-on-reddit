@@ -1,8 +1,9 @@
 package dev.lucasvillaverde.whatsthenews.adapters
-
+/*
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.whatsthenews.R
+import dev.lucasvillaverde.whatsthenews.models.NewsItem
 import dev.lucasvillaverde.whatsthenews.utils.inflate
 
 class NewsDelegateAdapter(val viewActions: onViewSelectedListener) : ViewTypeDelegateAdapter {
@@ -17,7 +18,7 @@ class NewsDelegateAdapter(val viewActions: onViewSelectedListener) : ViewTypeDel
 
     override fun onBindViewHolder(holder: RecyclerView.ViewHolder, item: ViewType){
         holder as NewsViewHolder
-        holder.bind(item as RedditNewsItem)
+        holder.bind(item as NewsItem)
     }
 
     inner class NewsViewHolder(parent:  ViewGroup) : RecyclerView.ViewHolder(
@@ -29,7 +30,7 @@ class NewsDelegateAdapter(val viewActions: onViewSelectedListener) : ViewTypeDel
         private val comments.text = itemView.comments
         private val time.text = itemView.time
 
-        fun bind(item: RedditNewsItem){
+        fun bind(item: NewsItem){
             imgThumbnail.loadImg(item.thumbnail)
             description.text = item.title
             author.text = item.author
@@ -41,4 +42,4 @@ class NewsDelegateAdapter(val viewActions: onViewSelectedListener) : ViewTypeDel
 
     }
 
-}
+}*/
