@@ -1,12 +1,12 @@
 package dev.lucasvillaverde.whatsthenews.adapters
-/*
+
 import android.view.ViewGroup
 import androidx.recyclerview.widget.RecyclerView
 import com.example.whatsthenews.R
 import dev.lucasvillaverde.whatsthenews.models.NewsItem
 import dev.lucasvillaverde.whatsthenews.utils.inflate
 
-class NewsDelegateAdapter(val viewActions: onViewSelectedListener) : ViewTypeDelegateAdapter {
+/*class NewsDelegateAdapter(val viewActions: onViewSelectedListener) : ViewTypeDelegateAdapter {
 
     interface onViewSelectedListener {
         fun onItemSelected(url: String?)
